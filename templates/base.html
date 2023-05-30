@@ -20,7 +20,7 @@
 <!-- header start -->
 
 {% for message in messages %}
-    <div class="alert {{ message.tags }}" role="alert">
+    <div class="alert {{ message.tags }}" id="message" role="alert">
         {{ message }}
     </div>
 {% endfor %}
@@ -223,5 +223,4 @@
 
 
 </body>
-
 </html>
